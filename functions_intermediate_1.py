@@ -73,3 +73,7 @@
 
 # Get Values From a List of Dictionaries
 # Create a function iterateDictionary2(key_name, some_list) that, given a list of dictionaries and a key name, the function prints the value stored in that key for each dictionary. For example, iterateDictionary2('first_name', students) should output:
+
+# Problem 3
+
+# def iterateDictionary2(key_name, some_list):
