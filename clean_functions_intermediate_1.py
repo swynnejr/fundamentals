@@ -28,11 +28,12 @@ dojo = {
 }
 
 def printInfo(some_dict):
-    for value in some_dict.values():
-        print(len(value))
-        print(value)
-    # for key in some_dict.keys():
-    #     print(key)
+    for key,value in some_dict.items():
+        print('------')
+        print(f'{len(value)}', key)
+        print('------')
+        for i in range (0,len(value)):
+            print(value[i])
 
 printInfo(dojo)
 
