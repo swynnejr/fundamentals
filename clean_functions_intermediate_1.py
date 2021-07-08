@@ -28,7 +28,11 @@ dojo = {
 }
 
 def printInfo(some_dict):
-    
+    for value in some_dict.values():
+        print(len(value))
+        print(value)
+    # for key in some_dict.keys():
+    #     print(key)
 
-# printInfo(dojo)
+printInfo(dojo)
 
