@@ -71,9 +71,99 @@
 
 # iterateDictionary(students)
 
+# Problem 3 - NEEDS WORK
+
 # Get Values From a List of Dictionaries
 # Create a function iterateDictionary2(key_name, some_list) that, given a list of dictionaries and a key name, the function prints the value stored in that key for each dictionary. For example, iterateDictionary2('first_name', students) should output:
 
-# Problem 3
+
+students = [
+        {'first_name':  'Michael', 'last_name' : 'Jordan'},
+        {'first_name' : 'John', 'last_name' : 'Rosales'},
+        {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+        {'first_name' : 'KB', 'last_name' : 'Tonel'}]
+
+
+
 
 # def iterateDictionary2(key_name, some_list):
+#     for i in some_list:
+#         print([i],'key_name')
+
+# def iterateDictionary2(key_name, some_list):
+#     for i in some_list.key_name():
+#         print([i])
+
+# relevant example from learn platform
+
+# my_dict = { "name": "Noelle", "language": "Python" }
+# for k in my_dict:
+#     print(my_dict[k])
+# output: Noelle, Python
+
+
+
+# iterateDictionary2('first_name', students)
+# iterateDictionary2('last_name', students)
+
+# Problem 4 -
+
+# Relevant example from learn platform:
+
+# capitals = {"Washington":"Olympia","California":"Sacramento","Idaho":"Boise","Illinois":"Springfield","Texas":"Austin","Oklahoma":"Oklahoma City","Virginia":"Richmond"}
+# # another way to iterate through the keys
+# for key in capitals.keys():
+#      print(key)
+# # output: Washington, California, Idaho, Illinois, Texas, Oklahoma, Virginia
+# #to iterate through the values
+# for val in capitals.values():
+#      print(val)
+# # output: Olympia, Sacramento, Boise, Springfield, Austin, Oklahoma City, Richmond
+# #to iterate through both keys and values
+# for key, val in capitals.items():
+#      print(key, " = ", val)
+# # output: Washington = Olympia, California = Sacramento, Idaho = Boise, etc
+
+# my_list = ["abc", 123, "xyz"]
+# for i in range(0, len(my_list)):
+#     print(i, my_list[i])
+# # output: 0 abc, 1 123, 2 xyz
+# # OR
+# for v in my_list:
+#     print(v)
+# # output: abc, 123, xyz
+
+
+
+# dojo = {
+#     'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
+#     'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
+# }
+
+# def printInfo(dict):
+#     something with len('locations')
+#     print(locations.value)
+
+# printInfo(dojo)
+# output:
+# 7 LOCATIONS
+# San Jose
+# Seattle
+# Dallas
+# Chicago
+# Tulsa
+# DC
+# Burbank
+    
+# 8 INSTRUCTORS
+# Michael
+# Amy
+# Eduardo
+# Josh
+# Graham
+# Patrick
+# Minh
+# Devon
+
+
+
